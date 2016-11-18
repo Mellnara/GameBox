@@ -12,9 +12,7 @@ public class BoxGame {
     private static String[] strings = Text.strings;
     //создаем и инициализируем канал для считывания ответов
     private static Scanner scanner = new Scanner(System.in);
-    //создаем переменную для сохранения вариантов ответа игрока
     private static int answer;
-    //создаем и инициализируем переменную для логичного ведения сценария
     private static boolean robbery = false;
 
     public static void main(String[] args) {
