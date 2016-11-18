@@ -24,9 +24,6 @@ public class BoxGame {
         try {
             if (scanner.hasNextInt()){
             answer = scanner.nextInt();}
-            else {
-                //System.out.println("Вводите только цифры - номер ответа. Game over");
-            }
         } catch (InputMismatchException i){
 
         }
